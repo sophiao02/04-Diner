@@ -88,47 +88,45 @@ main {
   div.allcards {
     padding: 0 $gutter;
     section {
-      
       border-radius: 10px;
       overflow: hidden;
       margin: 1rem 0;
-      h2,
-      p,
-      img {
+      h2,p,img {
         margin: 0;
         padding: 1rem $gutter;
-      }
-      h2 {
-        background-color:#F2D586;
-        font-size: 1.5rem;
-        text-align: center;
-      }
-      img {
-        width: 100%;
-        height: auto;
-        display: block;
-      }
-      img.e2e {
-        padding: 0;
-      }
-      p {
-        font-style: italic;
-      }
-      a {
-        display: block;
-        background-color: cadetblue;
-        padding: 0.75rem;
-        text-align: center;
-        margin: 0 3rem 1rem 3rem;
-        border-radius: 8px;
-        color: white;
-        text-decoration: none;
-        font-weight: $boldWeight;
-        a:hover {
-          background-color: darken($primaryColor, 4%);
         }
-      }
-    }
+        h2 {
+          background-color: #f2d586;
+          font-size: 1.5rem;
+          text-align: center;
+        }
+        img {
+          width: 100%;
+          height: auto;
+          display: block;
+        }
+        img.e2e {
+          padding: 0;
+        }
+        p {
+          font-style: italic;
+        }
+        a {
+          display: block;
+          background-color: cadetblue;
+          padding: 0.75rem;
+          text-align: center;
+          margin: 0 3rem 1rem 3rem;
+          border-radius: 8px;
+          color: white;
+          text-decoration: none;
+          font-weight: $boldWeight;
+          a:hover {
+            background-color: darken($primaryColor, 4%);
+          }
+        }
+        
+    } // end section
   } //end allcards
 } // end main
 
@@ -146,7 +144,7 @@ footer {
     p {
       font-size: 1.2rem;
       margin: 0.5rem;
-      color:#F2D586;
+      color: #f2d586;
       text-decoration: none;
     }
     ion-icon {
