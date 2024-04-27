@@ -77,59 +77,55 @@ main {
     padding: 1rem 2vw 0.5rem 2vw;
     font-size: 1.5rem;
     color: $secondaryColor;
-    font-weight: $normaltWeight;
-    }
-  //.hero {width: 100%;}
-  //.hero img {
-  // width: 100%;
-  // height: auto;
-  //}
+    font-weight: $normalWeight;
+  }
 
-  //div.allcards {
-    //padding: 0 $gutter;
-    //section {
-      //border-radius: 10px;
-      //overflow: hidden;
-      //margin: 1rem 0;
-      //}
-      //h2,p,img {
-        //margin: 0;
-        //padding: 1rem $gutter;
-        //}
-        //h2 {
-         // background-color: #f2d586;
-          //font-size: 1.5rem;
-          //text-align: center;
-        //}
-        //img {
-          //width: 100%;
-          //height: auto;
-          //display: block;
-        //}
-        //img.e2e {
-          //padding: 0;
-        //}
-        //p {
-          //font-style: italic;
-        //}
-        //a {
-          //display: block;
-          //background-color: cadetblue;
-          //padding: 0.75rem;
-          //text-align: center;
-          //margin: 0 3rem 1rem 3rem;
-          //border-radius: 8px;
-          //color: white;
-          //text-decoration: none;
-          //font-weight: $boldWeight;
-        //}
-          //a:hover {
-            //background-color: darken($primaryColor, 4%);
-          //}
+  div.allcards {
+    padding: 0 $gutter;
+    
+    section {
+      border-radius: 10px;
+      overflow: hidden;
+      margin: 1rem 0;
+      border: solid 2px lighten(#1b1b1b, 45%);
+      h2,p,img {
+        margin: 0;
+        padding: 1rem $gutter;
+        }
+        h2 {
+         background-color: #f2d586;
+          font-size: 1.5rem;
+          text-align: center;
+        }
+        img {
+          width: 100%;
+          height: auto;
+          display: block;
+        }
+        img.e2e {
+          padding: 0;
+        }
+        p {
+          font-style: italic;
+        }
+        a {
+          display: block;
+          background-color: $primaryColor;
+          padding: 0.75rem;
+          text-align: center;
+          margin: 0 3rem 1rem 3rem;
+          border-radius: 8px;
+          color: white;
+          text-decoration: none;
+          font-weight: $boldWeight;
+        }
+          a:hover {
+            background-color: darken($primaryColor, 6%);
+          }
         
         
-    //} // end section
-  //} //end allcards
+    } // end section
+  } //end allcards
 } // end main
 
 /* FOOTER  */
@@ -148,10 +144,20 @@ footer {
       margin: 0.5rem;
       color: #f2d586;
       text-decoration: none;
+      text-align: center;
     }
     ion-icon {
-      color: $primaryColor;
+      color: lighten($primaryColor, 25%);
       padding-right: 5px;
+    }
+    a {
+      text-decoration: none;
+      margin: .5rem;
+      font-size: 1.05rem;
+      color:#f2d586
+    }
+    a:hover {
+      color: white;
     }
   } //end of contact
 
@@ -173,7 +179,8 @@ footer {
   } //end of social
 
   section.location {
-    font-size: 1.5rem;
+    font-size: .7rem;
+    padding: 1rem;
   } //end of location
 
   p.legal {

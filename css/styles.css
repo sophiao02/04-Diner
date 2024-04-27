@@ -135,7 +135,7 @@ header h1 {
 
 /* NAVIGATION STUFF GOES HERE  */
 div#navWrapper {
-  background-color: #700000;
+  background-color: #434343;
 }
 
 nav button {
@@ -163,10 +163,10 @@ nav ul li a {
   text-decoration: none;
 }
 nav ul li.active a {
-  background-color: #470000;
+  background-color: #2f2f2f;
 }
 nav ul li a:hover {
-  background-color: #5c0000;
+  background-color: #393939;
 }
 
 /* MAIN  */
@@ -174,25 +174,23 @@ main h1 {
   padding: 1rem 2vw 0.5rem 2vw;
   font-size: 1.5rem;
   color: #002242;
-  font-weight: 300;
+  font-weight: 500;
 }
 main div.allcards {
   padding: 0 16px;
 }
 main div.allcards section {
-  border: 1px solid red;
   border-radius: 10px;
   overflow: hidden;
   margin: 1rem 0;
+  border: solid 2px #8e8e8e;
 }
-main div.allcards section h2,
-main div.allcards section p,
-main div.allcards section img {
+main div.allcards section h2, main div.allcards section p, main div.allcards section img {
   margin: 0;
   padding: 1rem 16px;
 }
 main div.allcards section h2 {
-  background-color: bisque;
+  background-color: #f2d586;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -209,13 +207,17 @@ main div.allcards section p {
 }
 main div.allcards section a {
   display: block;
-  background-color: cadetblue;
+  background-color: #700000;
   padding: 0.75rem;
   text-align: center;
   margin: 0 3rem 1rem 3rem;
   border-radius: 8px;
   color: white;
   text-decoration: none;
+  font-weight: 700;
+}
+main div.allcards section a:hover {
+  background-color: #510000;
 }
 
 /* FOOTER  */
@@ -230,10 +232,22 @@ footer {
 footer section.contact p {
   font-size: 1.2rem;
   margin: 0.5rem;
+  color: #f2d586;
+  text-decoration: none;
+  text-align: center;
 }
 footer section.contact ion-icon {
-  color: red;
+  color: #f00000;
   padding-right: 5px;
+}
+footer section.contact a {
+  text-decoration: none;
+  margin: 0.5rem;
+  font-size: 1.05rem;
+  color: #f2d586;
+}
+footer section.contact a:hover {
+  color: white;
 }
 footer section.social {
   display: flex;
@@ -241,18 +255,19 @@ footer section.social {
 }
 footer section.social a {
   display: block;
-  border: solid 1px #666;
+  border: solid 1px white;
   font-size: 2rem;
   margin: 0.5rem;
   padding: 0.5rem;
-  color: purple;
+  color: white;
   line-height: 100%;
 }
 footer section.social a:hover {
-  background-color: aquamarine;
+  background-color: #700000;
 }
 footer section.location {
-  font-size: 1.5rem;
+  font-size: 0.7rem;
+  padding: 1rem;
 }
 footer p.legal {
   margin: 0;
